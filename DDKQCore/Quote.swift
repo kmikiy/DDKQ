@@ -11,11 +11,14 @@ import Alamofire
 import SwiftyJSON
 
 public class Quotes {
-    public static func getQuotes( completion: (_ quotes: [String])->()) {
+    public static func getQuotes( completion: @escaping (_ quotes: [String])->()) {
         Alamofire.request("https://raw.githubusercontent.com/kmikiy/DDKQ/master/quotes.json").responseJSON { response in
             if let value = response.result.value {
                 let swiftyJsonVar = JSON(value)
-                print(swiftyJsonVar.arrayValue.map { $0.stringValue})
+                let array = swiftyJsonVar.arrayValue.map { $0.stringValue}
+                completion(array)
+            } else {
+                completion([])
             }
             
         }

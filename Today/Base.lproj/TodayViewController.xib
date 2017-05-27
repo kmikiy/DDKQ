@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TodayViewController" customModule="Today" customModuleProvider="target">
             <connections>
+                <outlet property="quoteTextField" destination="lUE-Ob-JL9" id="Q2C-l2-hTM"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>

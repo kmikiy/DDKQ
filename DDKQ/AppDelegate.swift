@@ -7,7 +7,6 @@
 //
 
 import Cocoa
-import DDKQCore
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -16,9 +15,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        Quotes.getQuotes { _ in
-            
-        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
