@@ -12,7 +12,7 @@ import SwiftyJSON
 
 public class Quotes {
     public static func getQuotes( completion: (_ quotes: [String])->()) {
-        Alamofire.request("http://localhost:3000/quotes").responseJSON { response in
+        Alamofire.request("https://raw.githubusercontent.com/kmikiy/DDKQ/master/quotes.json").responseJSON { response in
             if let value = response.result.value {
                 let swiftyJsonVar = JSON(value)
                 print(swiftyJsonVar.arrayValue.map { $0.stringValue})
