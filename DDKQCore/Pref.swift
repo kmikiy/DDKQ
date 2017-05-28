@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct UserPreferences {
+public struct UserPreferences {
     
     private static let _currentQuoteNrConst = "currentQuoteNr"
     private static let _lastQuoteDayConst = "lastQuoteDay"
@@ -29,7 +29,7 @@ struct UserPreferences {
         }
     }
     
-    static func readPrefs(){
+    public static func readPrefs() {
         let hasBeenInited = UserDefaults.standard.bool(forKey: _hasBeenInited)
         if !hasBeenInited {
             UserDefaults.standard.set(true, forKey: _hasBeenInited)
