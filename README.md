@@ -27,7 +27,7 @@ Finally, open up the DDKQ.xcworkspace. Set the "Scheme" to build the "DDKQ" targ
 + Star and Fork
 + Post any issues you find
 + Post new feature requests
-+ [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NL4KDG65UYQB6) Help me get that new mansion by the bay in Fort Lauderdale 💸💰💵 I'm only short by $1 499 589 🙏🏻
++ [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WL5N9L2DGV4BE) Help me get that new mansion by the bay in Fort Lauderdale 💸💰💵 I'm only short by $1 499 589 🙏🏻
 
 ## Screenshot
 
