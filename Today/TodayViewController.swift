@@ -23,11 +23,8 @@ class TodayViewController: NSViewController, NCWidgetProviding {
         // time we called you
         UserPreferences.readPrefs()
         self.quoteTextField.stringValue = "\"\(UserPreferences.lastQuoteString)\""
-        let date = Date()
-        let lastDate = UserPreferences.lastQuoteDay
-        let diff = date.timeIntervalSince(lastDate)
         
-        if (diff > 24 * 60 * 60 ) {
+        if (Quotes.daysSinceLastQuote >= 1 ) {
             Quotes.getQuotes(){quotes in
                 
                 if quotes.count == 0 {
@@ -45,6 +42,8 @@ class TodayViewController: NSViewController, NCWidgetProviding {
                     completionHandler(.newData)
                 }
             }
+        } else {
+            completionHandler(.noData)
         }
 
         

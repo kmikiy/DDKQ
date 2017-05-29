@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 import SwiftyJSON
+import SwiftDate
 
 public class Quotes {
     public static func getQuotes( completion: @escaping (_ quotes: [String])->()) {
@@ -22,6 +23,13 @@ public class Quotes {
             }
             
         }
+    }
+    
+    public static var daysSinceLastQuote: Float64 {
+        let lastQuoteDay = UserPreferences.lastQuoteDay
+        let now = Date().startOfDay
+        let delta = now.timeIntervalSince(lastQuoteDay.startOfDay)
+        return Double(delta / 60 / 60 / 24)
     }
 }
 

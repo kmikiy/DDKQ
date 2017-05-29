@@ -17,6 +17,7 @@ target 'DDKQCore' do
   # Pods for DDKQCore
   pod 'Alamofire', '~> 4.4'
   pod 'SwiftyJSON'
+  pod 'SwiftDate', '~> 4.0'
 
 end
 
