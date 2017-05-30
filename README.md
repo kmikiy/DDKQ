@@ -1,4 +1,12 @@
-# DDKQ
+# DDKQ 
+
+![logo](https://github.com/kmikiy/DDKQ/raw/master/DDKQ/Assets.xcassets/AppIcon.appiconset/Icon128.png)
+![logo](https://github.com/kmikiy/DDKQ/raw/master/DDKQ/Assets.xcassets/AppIcon.appiconset/Icon128.png)
+![logo](https://github.com/kmikiy/DDKQ/raw/master/DDKQ/Assets.xcassets/AppIcon.appiconset/Icon128.png)
+![logo](https://github.com/kmikiy/DDKQ/raw/master/DDKQ/Assets.xcassets/AppIcon.appiconset/Icon128.png)
+![logo](https://github.com/kmikiy/DDKQ/raw/master/DDKQ/Assets.xcassets/AppIcon.appiconset/Icon128.png)
+![logo](https://github.com/kmikiy/DDKQ/raw/master/DDKQ/Assets.xcassets/AppIcon.appiconset/Icon128.png)
+
 Daily DJ Khaled Quote
 
 ## About
@@ -21,6 +29,10 @@ pod install
 ```
 
 Finally, open up the DDKQ.xcworkspace. Set the "Scheme" to build the "DDKQ" target for "My Mac". Then Product > Run (or the shortcut ⌘R).
+
+## Contributors
+
+- [@danieltmbr](https://github.com/danieltmbr)
 
 ## Help
 
